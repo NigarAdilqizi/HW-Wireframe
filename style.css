@@ -1,0 +1,69 @@
+body{
+    box-sizing: border-box;
+    margin: 10px auto;
+    width: 960px;
+    font-size: 20px;
+    background-color: #777;
+    display: block;
+    color: #777;
+}
+.head,.nav{
+    text-align: center;
+    height: 100px;
+    background-color: #ebebeb;
+    margin-top: 10px;
+    line-height: 5;
+}
+.content{
+    margin: 20px auto;
+}
+.content .section{
+    width: 56.9%;
+}
+.content .section ,.content .aside{
+    float: left;
+    height: 300px;
+    display: inline-block;
+    background-color: #ebebeb;
+}
+.content .aside{
+    margin-left: 20px;
+    width: 41%;
+}
+.content   span{
+    display: block;
+    line-height: 5;
+    text-align: center;
+}
+.content .section .article{
+    background-color: #777;
+    color: #ebebeb;
+    height: 206px;
+    width: 95%;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: -18px;
+}
+.content .section .article .textone,.texttwo{
+    width: 90%;
+    background-color: #ebebeb;
+    height: 50px;
+    color: #777;
+    line-height: 2.5;
+    margin-left: 28px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.content .section .article .texttwo{
+    margin-top: 10px;
+}
+.foot{
+    clear: both;
+    height: 100px;
+    background-color: #ebebeb;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 5;
+}
